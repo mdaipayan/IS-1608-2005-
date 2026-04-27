@@ -39,6 +39,7 @@ elif page == "Key Definitions":
         st.write("The length of the cylindrical or prismatic portion of the test piece on which elongation is measured.")
         st.latex(r"L_o = k\sqrt{S_o}")
         st.caption("Commonly, $k = 5.65$ for proportional test pieces.")
+        st.caption("$S_o$: The original cross-sectional area.")
 
     with st.expander("2. Yield Strength (Re)"):
         st.write("**Upper Yield Strength ($R_{eH}$):** Value of stress at the moment when the first decrease in force is observed.")
